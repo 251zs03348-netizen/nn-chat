@@ -44,7 +44,7 @@ html(lang="ja")
     div.fixed-bottom.p-4.bg-body
       form(method="post" action="/posts" name="message-form").container-fluid.row.g-3
         div.col-12
-          textarea(name="content" rows="4" placeholder="Ctrl(command)+Enterで送信できます").form-control
+          textarea(name="content" rows="4" placeholder="Ctrl(command)+Enterで送信できます ※悪口や暴言・誹謗中傷になるようなことは絶対に入力・送信しないでください。").form-control
           input(type="hidden" name="oneTimeToken" value=oneTimeToken)
         div.col-12
           button(type="submit").btn.btn-primary.float-end
